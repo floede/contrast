@@ -107,6 +107,7 @@ body > footer .fa {
 
 body > footer .fa-copyright {
     font-size: .85em;
+    margin-right: .5em;
 }
 
 article footer a::after {
