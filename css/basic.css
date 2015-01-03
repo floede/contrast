@@ -28,6 +28,13 @@ header a, footer a {
     color: inherit;
 }
 
+body > header, body > footer {
+    background-color: #181818;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
 nav ul {
     padding: 1em 0;
     margin: 0;
@@ -61,6 +68,10 @@ article {
     padding-bottom: 2em;
 }
 
+article header {
+    text-align: center;
+}
+
 article header p {
     color: dimgray;
 }
@@ -81,31 +92,8 @@ article footer a:hover {
     color: white;
 }
 
-article footer a::after {
-    font-family: "FontAwesome";
-    font-size: .8em;
-    content: "\f101";
-    margin-left: .5em;
-}
-
 article .comments {
     margin-top: 2em;
-}
-
-article header, body > footer {
-    text-align: center;
-}
-
-body > header, body > footer {
-    background-color: #181818;
-    color: white;
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
-
-body > footer {
-    display: flex;
-    justify-content: space-between;
 }
 
 body > footer {
@@ -115,4 +103,18 @@ body > footer {
 
 body > footer .fa {
     margin-right: .5em;
+}
+
+article footer a::after {
+    font-family: "FontAwesome";
+    font-size: .8em;
+    margin-left: .5em;
+    content: "\f101";
+}
+
+body > footer > span:nth-child(2) a::before {
+    font-family: "FontAwesome";
+    font-size: .8em;
+    margin-right: .5em;
+    content: "\f1f9";
 }
