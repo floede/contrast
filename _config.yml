@@ -1,0 +1,42 @@
+# Site settings
+title: blog title
+author: "Blog Author"
+email: me@mysite.org
+description: "Really cool blog about ... something"
+baseurl: "/contrast" # comment out if site is in root folder
+url: "http://mysite.org"
+more: "read more"
+
+# Comments
+disqus_username: "niklasbuschmann"
+#isso_domain: "comments.mysite.org"
+
+# Links
+
+links:
+  - github: "https://github.com/me/"
+  - twitter: "https://twitter.com/me/"
+  - google-plus: "https://plus.google.com/+me"
+  - reddit: "https://www.reddit.com/user/me/"
+  - youtube: "https://www.youtube.com/user/me"
+  - steam: "http://steamcommunity.com/id/me/"
+
+
+# Build settings
+markdown: redcarpet
+permalink: /:title/
+excerpt_separator: "<!--more-->"
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: true
