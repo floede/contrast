@@ -1,7 +1,7 @@
 Contrast
 ========
 
-[Demo](https://niklabs.cf/contrast)
+[Demo](http://niklabs.cf/contrast)
 
 ![screenshot](https://cloud.githubusercontent.com/assets/4943215/5601368/f5b55554-92fa-11e4-9aad-dc46869dffdf.png)
 
