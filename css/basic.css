@@ -82,7 +82,10 @@ article footer a:hover {
 }
 
 article footer a::after {
-    content: " \00bb";
+    font-family: "FontAwesome";
+    font-size: .8em;
+    content: "\f101";
+    margin-left: .5em;
 }
 
 article .comments {
