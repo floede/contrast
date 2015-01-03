@@ -102,19 +102,16 @@ body > footer {
 }
 
 body > footer .fa {
-    margin-right: .5em;
+    margin: 0 .25em
+}
+
+body > footer .fa-copyright {
+    font-size: .85em;
 }
 
 article footer a::after {
     font-family: "FontAwesome";
     font-size: .8em;
-    margin-left: .5em;
+    margin-left: .4em;
     content: "\f101";
-}
-
-body > footer > span:nth-child(2) a::before {
-    font-family: "FontAwesome";
-    font-size: .8em;
-    margin-right: .5em;
-    content: "\f1f9";
 }
